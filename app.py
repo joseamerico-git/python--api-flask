@@ -23,17 +23,20 @@
 #}
 
 
-from flask import Flask
-from flask import request, jsonify
+from flask import Flask 
+from flask import request, jsonify, render_template
 
 app = Flask(__name__)
+
 
 
 # Criação da rota na raiz que retorna uma mensagem.
 
 @app.route("/")
-def hello():
-    return "Hello, World!"
+def home():
+    return render_template('home.html')
+
+
 
 
 
