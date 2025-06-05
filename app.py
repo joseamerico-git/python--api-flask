@@ -22,7 +22,7 @@
  # "description": "Estudar a criação de APIs"
 #}
 
-
+#pip install mysql-connector-python
 from flask import Flask 
 from flask import request, jsonify, render_template
 

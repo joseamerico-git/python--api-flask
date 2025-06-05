@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(230, 224, 224);
+}
+
+#div__container {}
+
+
+.frm {
+    border: solid 1px #e1d2d2;
+    height: 40%;
+    width: 40%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
